@@ -40,7 +40,7 @@ else
 fi
 
 echo "IMPORTANT: ADD THE TRAILING SLASH AT THE END OF YOUR DIRECTORIES!"
-read -p "Document root (e.g. /var/www/html/) : " DIR_WWW
+read -p "Deployment directory (e.g. /var/www/html/) : " DIR_WWW
 DIR_WWW=${DIR_WWW:-/var/www/html/}
 read -p "Temporary directory for deployment (e.g. /var/www/tmp/) : " DIR_TMP
 DIR_TMP=${DIR_TMP:-/var/www/tmp/}
